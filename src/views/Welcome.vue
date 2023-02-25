@@ -1,11 +1,16 @@
 <template>
   <div class="welcome container">
     <p>Welcome</p>
+    <SignupForm />
   </div>
 </template>
 
 <script>
-export default {};
+import SignupForm from "../components/Signupform.vue";
+
+export default {
+  components: { SignupForm },
+};
 </script>
 
 <style>
